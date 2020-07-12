@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de cores RGB</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="simulador">
+      <label for="red">(R) Vermelho</label>
+      <input
+        type="range"
+        name="red"
+        id="red"
+        min="0"
+        max="255"
+        value="0"
+        onchange="valor()"
+      />
+      <input type="text" name="" id="valorRed" disabled />
+    </div>
+    <div class="simulador">
+      <label for="green">(G) Verde</label>
+      <input
+        type="range"
+        name="green"
+        id="green"
+        min="0"
+        max="255"
+        value="0"
+        onchange="valor()"
+      />
+      <input type="text" name="" id="valorGreen" disabled />
+    </div>
+    <div class="simulador">
+      <label for="blue">(B) Blue</label>
+      <input
+        type="range"
+        name="blue"
+        id="blue"
+        min="0"
+        max="255"
+        value="0"
+        onchange="valor()"
+      />
+      <input type="text" name="" id="valorBlue" disabled />
+    </div>
+    <div class="cor" id="cor"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 3rem;
+}
+
+.simulador {
+  margin: 1rem;
+}
+.cor {
+  padding: 5rem;
+  margin-right: 60rem;
+  border: 2px solid black;
+  display: flex;
+  margin-top: 3rem;
+}
