@@ -1,7 +1,7 @@
 <h1> Simulador de RGB em Javascript </h1>
 
 <p> Atividade do Módulo 1 do Bootcampo de Desenvolvimento Full-Stack do IGTI </p>
-<p> Os alunos deverão desempenhar as seguintes atividades: </p>
+<p> O objetivo era desempenhar as seguintes atividades: </p>
 
 <ul>
   <li>  Implementar, através de HTML, CSS e JavaScript puro, uma aplicação que
